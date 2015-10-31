@@ -623,17 +623,17 @@ class UserController extends Controller {
 				throw new ForbiddenAccessException();
 			}
 			
-			$keys = array (				
-				"ORIG14-SFR" => 11,
-				"ORIG14-URI" => 15,
-				"ORIG14-LEO" => 33,
-				"ORIG14-VDS" => 10,
-				"ORIG14-GTO" => 12,
-				"ORIG14-CEL" => 28,
-				"ORIG14-IRA" => 30,
-				"ORIG14-SLV" => 6,
-				"ORIG14-JUV" => 10,
-				"ORIG14-DHI" => 11,
+			$keys = array (	
+				"ORIG1516-URI" => 17,
+				"ORIG1516-IRA" => 37,
+				"ORIG1516-CEL" => 38,
+				"ORIG1516-SLP" => 14,
+				"ORIG1516-VDS" => 15,
+				"ORIG1516-GTO" => 14,
+				"ORIG1516-PEN" => 20,
+				"ORIG1516-LEO" => 43,
+				"ORIG1516-SLV" => 14,
+				"ORIG1516-DHI" => 15,
 			);
 			
 		} else if ($r["contest_type"] == "OMIAGS") {
